@@ -7,10 +7,10 @@ description 'a free and open anticheat.'
 
 server_scripts {
 	"config_ac.lua",
-	"ac_s.lua"
+	"native_ac.lua"
 } 
 
 client_scripts {
-	"config.lua",
-	"ac_c.lua"
+	"config_ac.lua",
+	"pro_ac.lua"
 }
