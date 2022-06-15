@@ -6,9 +6,9 @@ recentEvents = {}
 
 RegisterCommand("ac_scramble", function()
 	Citizen.CreateThread(function()
-		local clientScript = LoadResourceFile(GetCurrentResourceName(), "ac_c.lua")
-		local configScript = LoadResourceFile(GetCurrentResourceName(), "ac_config.lua")
-		local serverScript = LoadResourceFile(GetCurrentResourceName(), "ac_s.lua")
+		local clientScript = LoadResourceFile(GetCurrentResourceName(), "native_ac.lua")
+		local configScript = LoadResourceFile(GetCurrentResourceName(), "config_ac.lua")
+		local serverScript = LoadResourceFile(GetCurrentResourceName(), "pro_ac.lua")
 		if not clientScript or not configScript or not serverScript then
 			print("Could not find ac_c.lua, ac_config.lua and/or ac_s.lua, please make sure they exist!")
 			return
