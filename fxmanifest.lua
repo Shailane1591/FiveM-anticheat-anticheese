@@ -1,7 +1,7 @@
 fx_version 'cerulean'
 games { 'gta5' }
 
-author 'Blumlaut'
+author 'Referensi from Blumlaut & Modify Shailane'
 description 'a free and open anticheat.'
 
 
